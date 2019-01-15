@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botMlDomain>
+        <label>Trust Bot</label>
+        <mlIntents>
+            <developerName>Confused</developerName>
+            <label>Confused</label>
+            <mlIntentUtterances>
+                <utterance>Who is Marc Benioff?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Can you login to my org?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Show me salesforce top customers</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the weather?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Where do you get your data from?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Teach me about salesforce</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is your name</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Who created you?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>i would like to know about the metadata api</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is dreamforce?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Who is Astro?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Tell me a joke</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>a you a real human</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>thank you my friend</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Are you an einstein bot?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to order a pizza</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>are you a real person</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Delete all the data in my org</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Query records in my organization</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is your age?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>give me an answer</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>you&apos;re the worst</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>are you very busy right now?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I love you marry me</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>you know a lot of things</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I shouldn&apos;t care about this</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Get_Instances_by_Release</developerName>
+            <label>Get Instances by Release</label>
+            <mlIntentUtterances>
+                <utterance>What instances are on the 218 release?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Which instances are on Winter &apos;18?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Has my instance been upgraded to the latest release?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me a list of instances on the 216 release</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give a list of instances for a specific release</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me instances by release number</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Get me instances by release</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>List instances that are on a specific release</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my on a specific release?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is NA45 on Winter 18?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What are the all the instances that have the 218 release?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What instances have been upgraded to 220?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Show me instances by release number</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What instances are running patch release 218.13.1</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>instances by release</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Which of my sandboxes have been updated to the last release?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Display all of the instances that are on the 216 release</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Get instances by release number</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is NA3 on Summer 19?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I&apos;d like to get instances that have not been upgraded to the latest release</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Display instances for release 222</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Get_Instance_Information</developerName>
+            <label>Get Instance Information</label>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Get_Instance_Status</developerName>
+            <label>Get Instance Status</label>
+            <mlIntentUtterances>
+                <utterance>What is my org status?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Get instance status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is my instance status?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I want to know the status of my org&apos;s instance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there any issue with my instance? I&apos;m using NA1</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check if my instance is up and running</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my instance available right now?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Did my org instance go down?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Org status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check instance status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my instance running?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my instance down?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Give me the status of my instance</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is there any issue with instance NA45?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Check org status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Tell me my org status</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my sandbox instance running right now?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>I would like to know if my instance is available</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Is my org available?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>My instance seems to be down</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>What is the availability of instance CS8?</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlSlotClasses>
+            <developerName>Instance</developerName>
+            <extractionType>Value</extractionType>
+            <label>Instance</label>
+            <mlSlotClassValues>
+                <value>NA45</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <value>NA1</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <value>NA2</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <value>NA3</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <value>NA4</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <value>NA5</value>
+            </mlSlotClassValues>
+        </mlSlotClasses>
+        <mlSlotClasses>
+            <developerName>Release</developerName>
+            <extractionType>Value</extractionType>
+            <label>Release</label>
+            <mlSlotClassValues>
+                <synonymGroup>
+                    <languages>en_US</languages>
+                    <terms>Summer 19</terms>
+                    <terms>Summer &apos;19</terms>
+                </synonymGroup>
+                <value>220</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <synonymGroup>
+                    <languages>en_US</languages>
+                    <terms>Spring 19</terms>
+                    <terms>Spring &apos;19</terms>
+                </synonymGroup>
+                <value>218</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <synonymGroup>
+                    <languages>en_US</languages>
+                    <terms>Winter 19</terms>
+                    <terms>Winter &apos;19</terms>
+                </synonymGroup>
+                <value>216</value>
+            </mlSlotClassValues>
+        </mlSlotClasses>
+        <name>Trust_Bot</name>
+    </botMlDomain>
+    <botVersions>
+        <fullName>v1</fullName>
+        <botDialogGroups>
+            <developerName>Instance_Information</developerName>
+            <label>Instance Information</label>
+        </botDialogGroups>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Hi, i&apos;m the Trust Bot.</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <targetBotDialog>Main_Menu</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Redirect</type>
+                </botNavigation>
+                <type>Navigation</type>
+            </botSteps>
+            <developerName>Welcome</developerName>
+            <label>Welcome</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Here are some things I can help with but you can also type something and I&apos;ll try my best to get you some answers.</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <targetBotDialog>Get_Instance_Status</targetBotDialog>
+                    </botNavigationLinks>
+                    <botNavigationLinks>
+                        <targetBotDialog>Get_Instances_by_Release</targetBotDialog>
+                    </botNavigationLinks>
+                    <botNavigationLinks>
+                        <targetBotDialog>Search_Instance_by_Domain</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Redirect</type>
+                </botNavigation>
+                <type>Navigation</type>
+            </botSteps>
+            <developerName>Main_Menu</developerName>
+            <label>Main Menu</label>
+            <showInFooterMenu>true</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botNavigation>
+                    <type>TransferToAgent</type>
+                </botNavigation>
+                <type>Navigation</type>
+            </botSteps>
+            <developerName>Transfer_To_Agent</developerName>
+            <label>Transfer To Agent</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Goodbye! Click the &quot;End Chat&quot; button to end this chat</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>End_Chat</developerName>
+            <label>End Chat</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Sorry, I didn&apos;t understand that.</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>Confused</developerName>
+            <label>Confused</label>
+            <mlIntent>Confused</mlIntent>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botDialogGroup>Instance_Information</botDialogGroup>
+            <botSteps>
+                <botVariableOperation>
+                    <botMessages>
+                        <message>What release version or number are you looking for?</message>
+                    </botMessages>
+                    <botQuickReplyOptions>
+                        <literalValue>Winter &apos;19</literalValue>
+                    </botQuickReplyOptions>
+                    <botQuickReplyOptions>
+                        <literalValue>Spring &apos;19</literalValue>
+                    </botQuickReplyOptions>
+                    <botQuickReplyOptions>
+                        <literalValue>Summer &apos;19 (Pre-release)</literalValue>
+                    </botQuickReplyOptions>
+                    <botVariableOperands>
+                        <disableAutoFill>false</disableAutoFill>
+                        <sourceName>Release</sourceName>
+                        <sourceType>MlSlotClass</sourceType>
+                        <targetName>Release_Indicator</targetName>
+                        <targetType>ConversationVariable</targetType>
+                    </botVariableOperands>
+                    <quickReplyType>Static</quickReplyType>
+                    <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                    <type>Collect</type>
+                </botVariableOperation>
+                <type>VariableOperation</type>
+            </botSteps>
+            <botSteps>
+                <botVariableOperation>
+                    <botInvocation>
+                        <invocationActionName>TrustInstancesByReleaseService</invocationActionName>
+                        <invocationActionType>apex</invocationActionType>
+                        <invocationMappings>
+                            <parameterName>releaseIndicator</parameterName>
+                            <type>Input</type>
+                            <variableName>Release_Indicator</variableName>
+                            <variableType>ConversationVariable</variableType>
+                        </invocationMappings>
+                        <invocationMappings>
+                            <parameterName>output</parameterName>
+                            <type>Output</type>
+                            <variableName>Matched_Instances</variableName>
+                            <variableType>ConversationVariable</variableType>
+                        </invocationMappings>
+                    </botInvocation>
+                    <type>Set</type>
+                </botVariableOperation>
+                <type>VariableOperation</type>
+            </botSteps>
+            <botSteps>
+                <botStepConditions>
+                    <leftOperandName>Matched_Instances</leftOperandName>
+                    <leftOperandType>ConversationVariable</leftOperandType>
+                    <operatorType>IsNotSet</operatorType>
+                </botStepConditions>
+                <botSteps>
+                    <botNavigation>
+                        <botNavigationLinks>
+                            <targetBotDialog>No_Instance_Results</targetBotDialog>
+                        </botNavigationLinks>
+                        <type>Redirect</type>
+                    </botNavigation>
+                    <type>Navigation</type>
+                </botSteps>
+                <type>Group</type>
+            </botSteps>
+            <botSteps>
+                <botMessages>
+                    <message>The following instances match your Release Indicator : {!Release_Indicator}
+
+{!Matched_instances}</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botSteps>
+                    <botVariableOperation>
+                        <botVariableOperands>
+                            <targetName>Release_Indicator</targetName>
+                            <targetType>ConversationVariable</targetType>
+                        </botVariableOperands>
+                        <type>Unset</type>
+                    </botVariableOperation>
+                    <type>VariableOperation</type>
+                </botSteps>
+                <type>Group</type>
+            </botSteps>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>Get_Instances_by_Release</developerName>
+            <label>Get Instances by Release</label>
+            <mlIntent>Get_Instances_by_Release</mlIntent>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botDialogGroup>Instance_Information</botDialogGroup>
+            <botSteps>
+                <botVariableOperation>
+                    <botMessages>
+                        <message>What instance are you looking for?</message>
+                    </botMessages>
+                    <botVariableOperands>
+                        <disableAutoFill>false</disableAutoFill>
+                        <sourceName>Instance</sourceName>
+                        <sourceType>MlSlotClass</sourceType>
+                        <targetName>Customer_Instance</targetName>
+                        <targetType>ConversationVariable</targetType>
+                    </botVariableOperands>
+                    <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                    <type>Collect</type>
+                </botVariableOperation>
+                <type>VariableOperation</type>
+            </botSteps>
+            <botSteps>
+                <botVariableOperation>
+                    <botInvocation>
+                        <invocationActionName>TrustInstanceStatusService</invocationActionName>
+                        <invocationActionType>apex</invocationActionType>
+                        <invocationMappings>
+                            <parameterName>instance</parameterName>
+                            <type>Input</type>
+                            <variableName>Customer_Instance</variableName>
+                            <variableType>ConversationVariable</variableType>
+                        </invocationMappings>
+                        <invocationMappings>
+                            <parameterName>output</parameterName>
+                            <type>Output</type>
+                            <variableName>Customer_Instance_Status_Summary</variableName>
+                            <variableType>ConversationVariable</variableType>
+                        </invocationMappings>
+                    </botInvocation>
+                    <type>Set</type>
+                </botVariableOperation>
+                <type>VariableOperation</type>
+            </botSteps>
+            <botSteps>
+                <botStepConditions>
+                    <leftOperandName>Customer_Instance_Status_Summary</leftOperandName>
+                    <leftOperandType>ConversationVariable</leftOperandType>
+                    <operatorType>IsNotSet</operatorType>
+                </botStepConditions>
+                <botSteps>
+                    <botNavigation>
+                        <botNavigationLinks>
+                            <targetBotDialog>No_Instance_Results</targetBotDialog>
+                        </botNavigationLinks>
+                        <type>Redirect</type>
+                    </botNavigation>
+                    <type>Navigation</type>
+                </botSteps>
+                <type>Group</type>
+            </botSteps>
+            <botSteps>
+                <botMessages>
+                    <message>Here&apos;s your instance information:
+
+{!Customer_Instance_Status_Summary}</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botSteps>
+                    <botVariableOperation>
+                        <botVariableOperands>
+                            <targetName>Customer_Instance</targetName>
+                            <targetType>ConversationVariable</targetType>
+                        </botVariableOperands>
+                        <type>Unset</type>
+                    </botVariableOperation>
+                    <type>VariableOperation</type>
+                </botSteps>
+                <type>Group</type>
+            </botSteps>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>Get_Instance_Status</developerName>
+            <label>Get Instance Status</label>
+            <mlIntent>Get_Instance_Status</mlIntent>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botDialogGroup>Instance_Information</botDialogGroup>
+            <botSteps>
+                <botVariableOperation>
+                    <botMessages>
+                        <message>What is your org&apos;s domain?</message>
+                    </botMessages>
+                    <botVariableOperands>
+                        <disableAutoFill>true</disableAutoFill>
+                        <sourceName>_Text</sourceName>
+                        <sourceType>StandardMlSlotClass</sourceType>
+                        <targetName>Customers_Domain_Name</targetName>
+                        <targetType>ConversationVariable</targetType>
+                    </botVariableOperands>
+                    <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                    <type>Collect</type>
+                </botVariableOperation>
+                <type>VariableOperation</type>
+            </botSteps>
+            <botSteps>
+                <botVariableOperation>
+                    <botInvocation>
+                        <invocationActionName>TrustInstanceSearchByDomainService</invocationActionName>
+                        <invocationActionType>apex</invocationActionType>
+                        <invocationMappings>
+                            <parameterName>domainName</parameterName>
+                            <type>Input</type>
+                            <variableName>Customers_Domain_Name</variableName>
+                            <variableType>ConversationVariable</variableType>
+                        </invocationMappings>
+                        <invocationMappings>
+                            <parameterName>output</parameterName>
+                            <type>Output</type>
+                            <variableName>Matched_Instances</variableName>
+                            <variableType>ConversationVariable</variableType>
+                        </invocationMappings>
+                    </botInvocation>
+                    <type>Set</type>
+                </botVariableOperation>
+                <type>VariableOperation</type>
+            </botSteps>
+            <botSteps>
+                <botStepConditions>
+                    <leftOperandName>Matched_Instances</leftOperandName>
+                    <leftOperandType>ConversationVariable</leftOperandType>
+                    <operatorType>IsNotSet</operatorType>
+                </botStepConditions>
+                <botSteps>
+                    <botNavigation>
+                        <botNavigationLinks>
+                            <targetBotDialog>No_Instance_Results</targetBotDialog>
+                        </botNavigationLinks>
+                        <type>Redirect</type>
+                    </botNavigation>
+                    <type>Navigation</type>
+                </botSteps>
+                <type>Group</type>
+            </botSteps>
+            <botSteps>
+                <botMessages>
+                    <message>Org Domain: {!Customers_Domain_Name}
+Instance: {!Matched_Instances}</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botSteps>
+                    <botVariableOperation>
+                        <botVariableOperands>
+                            <targetName>Customers_Domain_Name</targetName>
+                            <targetType>ConversationVariable</targetType>
+                        </botVariableOperands>
+                        <type>Unset</type>
+                    </botVariableOperation>
+                    <type>VariableOperation</type>
+                </botSteps>
+                <type>Group</type>
+            </botSteps>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>Search_Instance_by_Domain</developerName>
+            <label>Search Instance by Domain</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botDialogGroup>Instance_Information</botDialogGroup>
+            <botSteps>
+                <botMessages>
+                    <message>Oops, I wasn&apos;t able to find any results for your query. Maybe try a different query?</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botSteps>
+                    <botVariableOperation>
+                        <botVariableOperands>
+                            <targetName>Customer_Instance</targetName>
+                            <targetType>ConversationVariable</targetType>
+                        </botVariableOperands>
+                        <type>Unset</type>
+                    </botVariableOperation>
+                    <type>VariableOperation</type>
+                </botSteps>
+                <botSteps>
+                    <botVariableOperation>
+                        <botVariableOperands>
+                            <targetName>Release_Indicator</targetName>
+                            <targetType>ConversationVariable</targetType>
+                        </botVariableOperands>
+                        <type>Unset</type>
+                    </botVariableOperation>
+                    <type>VariableOperation</type>
+                </botSteps>
+                <botSteps>
+                    <botVariableOperation>
+                        <botVariableOperands>
+                            <targetName>Customers_Domain_Name</targetName>
+                            <targetType>ConversationVariable</targetType>
+                        </botVariableOperands>
+                        <type>Unset</type>
+                    </botVariableOperation>
+                    <type>VariableOperation</type>
+                </botSteps>
+                <type>Group</type>
+            </botSteps>
+            <botSteps>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>No_Instance_Results</developerName>
+            <label>No Instance Results</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>Customers_Domain_Name</developerName>
+            <label>Customers Domain Name</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>Customer_Instance</developerName>
+            <label>Customer Instance</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>Customer_Instance_Status_Summary</developerName>
+            <label>Customer Instance Status Summary</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>Matched_Instances</developerName>
+            <label>Matched Instances</label>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>Release_Indicator</developerName>
+            <label>Release Indicator</label>
+        </conversationVariables>
+        <entryDialog>Welcome</entryDialog>
+        <mainMenuDialog>Main_Menu</mainMenuDialog>
+    </botVersions>
+    <description>Salesforce service availability informational bot</description>
+    <label>Trust Bot</label>
+</Bot>

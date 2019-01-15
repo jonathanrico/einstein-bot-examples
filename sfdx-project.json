@@ -1,0 +1,15 @@
+{
+  "packageDirectories": [
+    {
+      "path": "sfdx-source",
+      "default": true
+    },
+    {
+      "path": "mdapi-source",
+      "default": false
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0"
+}
