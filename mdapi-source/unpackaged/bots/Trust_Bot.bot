@@ -57,6 +57,13 @@
                 <type>Message</type>
             </botSteps>
             <botSteps>
+                <botMessages>
+                    <message>{!$Context.RoutableId}
+{!$Context.ContactId}</message>
+                </botMessages>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
                 <botNavigation>
                     <botNavigationLinks>
                         <targetBotDialog>Main_Menu</targetBotDialog>
@@ -482,6 +489,46 @@ Instance: {!Matched_Instances}</message>
         <entryDialog>Welcome</entryDialog>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
     </botVersions>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ChatKey</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>ChatKey</developerName>
+        <label>Chat Key</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ContactId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>ContactId</developerName>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.LiveChatVisitorId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>EndUserId</developerName>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.Id</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>RoutableId</developerName>
+        <label>Routable Id</label>
+    </contextVariables>
     <description>Salesforce service availability informational bot</description>
     <label>Trust Bot</label>
 </Bot>
