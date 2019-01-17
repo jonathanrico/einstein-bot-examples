@@ -291,6 +291,66 @@
     <mlIntents>
         <developerName>Search_Instance_by_Domain</developerName>
         <label>Search Instance by Domain</label>
+        <mlIntentUtterances>
+            <utterance>Translate my domain to an instance</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Give me the instance associated to my domain</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Translate domain to instance</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>domain to instance</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Can you translate my domain into an instance?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What is the instance associated to my custom domain?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Search instance for my domain</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I would like to know what instance my custom domain is on</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I cannot see the instance associated to my org , can you translate my domain into an instance?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I need to know the instance linked to my domain</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Can you give me the instance used by my org&apos;s domain?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>search instance configured for my domain</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>what instance is my org domain on?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>custom domain to salesforce instance</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I have a sandbox org with a custom domain, what is the instance for this org?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>convert domain to instance</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I need help getting the instance used by domain</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Get instance for domain</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>what is the instance behind my org domain?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>custom domain to instance</utterance>
+        </mlIntentUtterances>
     </mlIntents>
     <mlSlotClasses>
         <developerName>Instance</developerName>

@@ -34,6 +34,13 @@
                 <relatedMlIntent>Trust.Main_Menu</relatedMlIntent>
             </relatedMlIntents>
         </mlIntents>
+        <mlIntents>
+            <developerName>Search_Instance_by_Domain</developerName>
+            <label>Search Instance by Domain</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Trust.Search_Instance_by_Domain</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
         <name>Trust_Bot</name>
     </botMlDomain>
     <botVersions>
@@ -396,6 +403,7 @@ Instance: {!Matched_Instances}</message>
             </botSteps>
             <developerName>Search_Instance_by_Domain</developerName>
             <label>Search Instance by Domain</label>
+            <mlIntent>Search_Instance_by_Domain</mlIntent>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
         <botDialogs>
