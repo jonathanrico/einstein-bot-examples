@@ -4,5 +4,9 @@
         <members>Trust_Bot</members>
         <name>Bot</name>
     </types>
+    <types>
+        <members>Trust</members>
+        <name>MlDomain</name>
+    </types>
     <version>45.0</version>
 </Package>

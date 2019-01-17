@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MlDomain xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Intent Set that contains trust related intents and entities</description>
+    <label>Trust</label>
+    <mlIntents>
+        <developerName>Confused</developerName>
+        <label>Confused</label>
+        <mlIntentUtterances>
+            <utterance>Who is Marc Benioff?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Can you login to my org?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Show me salesforce top customers</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What is the weather?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Where do you get your data from?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Teach me about salesforce</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What is your name</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Who created you?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>i would like to know about the metadata api</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What is dreamforce?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Who is Astro?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Tell me a joke</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>a you a real human</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>thank you my friend</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Are you an einstein bot?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I would like to order a pizza</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>are you a real person</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Delete all the data in my org</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Query records in my organization</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What is your age?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>give me an answer</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>you&apos;re the worst</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>are you very busy right now?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I love you marry me</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>you know a lot of things</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I shouldn&apos;t care about this</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Get_Instances_by_Release</developerName>
+        <label>Get Instances by Release</label>
+        <mlIntentUtterances>
+            <utterance>What instances are on the 218 release?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Which instances are on Winter &apos;18?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Has my instance been upgraded to the latest release?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Give me a list of instances on the 216 release</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Give a list of instances for a specific release</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Give me instances by release number</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Get me instances by release</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>List instances that are on a specific release</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is my on a specific release?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is NA45 on Winter 18?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What are the all the instances that have the 218 release?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What instances have been upgraded to 220?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Show me instances by release number</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What instances are running patch release 218.13.1</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>instances by release</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Which of my sandboxes have been updated to the last release?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Display all of the instances that are on the 216 release</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Get instances by release number</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is NA3 on Summer 19?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I&apos;d like to get instances that have not been upgraded to the latest release</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Display instances for release 222</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Get_Instance_Status</developerName>
+        <label>Get Instance Status</label>
+        <mlIntentUtterances>
+            <utterance>What is my org status?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Get instance status</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What is my instance status?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I want to know the status of my org&apos;s instance</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is there any issue with my instance? I&apos;m using NA1</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Check if my instance is up and running</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is my instance available right now?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Did my org instance go down?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Org status</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Check instance status</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is my instance running?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is my instance down?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Give me the status of my instance</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is there any issue with instance NA45?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Check org status</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Tell me my org status</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is my sandbox instance running right now?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>I would like to know if my instance is available</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Is my org available?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>My instance seems to be down</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What is the availability of instance CS8?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Show me info for instance NA48</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Show me info for EU10</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Main_Menu</developerName>
+        <label>Main Menu</label>
+        <mlIntentUtterances>
+            <utterance>restart this conversation</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>what things are you good at?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>what other things can you do?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>take me to the menu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>show me what you can do</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>reset to main menu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>i need help with another thing</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>navigate back to main menu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>What can do you?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Show me the main options again</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>i need help with something else</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>main options</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>how can you help me?</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>reset conversation</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>show me the first menu again</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Let&apos;s start over</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>show me the main menu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>display main options</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>Back to main menu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>go to main menu</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Search_Instance_by_Domain</developerName>
+        <label>Search Instance by Domain</label>
+    </mlIntents>
+    <mlSlotClasses>
+        <developerName>Instance</developerName>
+        <extractionType>Value</extractionType>
+        <label>Instance</label>
+        <mlSlotClassValues>
+            <value>NA2</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA3</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA4</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA5</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA6</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA7</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA8</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA22</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA23</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA24</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA25</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA26</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA27</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA28</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA29</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA30</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA31</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA32</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA33</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA34</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA37</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA38</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA39</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA40</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA42</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA44</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA45</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA46</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA47</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA48</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA49</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA50</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA51</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA52</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA53</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA54</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA55</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA56</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA57</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA58</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA59</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA60</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA61</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA62</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA63</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA64</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA65</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA66</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA67</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA68</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA69</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA70</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA71</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA72</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA73</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA74</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA75</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA76</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA77</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA78</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA79</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA80</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA81</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA82</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA83</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA84</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA85</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA86</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>NA87</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS1</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS2</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS3</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS4</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS7</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS8</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS9</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS10</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS11</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS12</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS13</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS14</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS15</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS16</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS17</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS18</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS19</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS20</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS21</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS22</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS23</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS24</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS25</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS26</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS27</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS28</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS30</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS32</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS33</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS40</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS41</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS42</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS43</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS44</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS45</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS46</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS47</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS48</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS49</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS50</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS51</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS52</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS53</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS54</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS59</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS60</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS61</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS62</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS63</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS64</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS65</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS66</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS67</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS68</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS69</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS70</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS71</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS72</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS73</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS74</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS75</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS76</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS77</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS78</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS79</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS80</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS81</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS82</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS83</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS84</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS85</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS86</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS87</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS88</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS89</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS90</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS91</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS92</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS93</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS94</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS95</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS96</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS97</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS98</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS99</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS100</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS101</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS102</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS103</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS104</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS105</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS106</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS107</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS108</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS109</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS115</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS116</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS137</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>CS138</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU1</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU2</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU3</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU4</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU5</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU6</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU7</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU8</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU9</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU10</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU11</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU12</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU13</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU14</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU15</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU16</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU17</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU18</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>EU19</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP0</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP3</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP4</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP5</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP6</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP7</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP8</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP9</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP14</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <value>AP15</value>
+        </mlSlotClassValues>
+    </mlSlotClasses>
+    <mlSlotClasses>
+        <developerName>Release</developerName>
+        <extractionType>Value</extractionType>
+        <label>Release</label>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>Summer 19</terms>
+                <terms>Summer &apos;19</terms>
+            </synonymGroup>
+            <value>220</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>Spring 19</terms>
+                <terms>Spring &apos;19</terms>
+            </synonymGroup>
+            <value>218</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>Winter 19</terms>
+                <terms>Winter &apos;19</terms>
+            </synonymGroup>
+            <value>216</value>
+        </mlSlotClassValues>
+    </mlSlotClasses>
+</MlDomain>

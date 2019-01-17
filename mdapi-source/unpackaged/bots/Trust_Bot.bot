@@ -5,151 +5,16 @@
         <mlIntents>
             <developerName>Confused</developerName>
             <label>Confused</label>
-            <mlIntentUtterances>
-                <utterance>Who is Marc Benioff?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Can you login to my org?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Show me salesforce top customers</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>What is the weather?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Where do you get your data from?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Teach me about salesforce</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>What is your name</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Who created you?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>i would like to know about the metadata api</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>What is dreamforce?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Who is Astro?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Tell me a joke</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>a you a real human</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>thank you my friend</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Are you an einstein bot?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>I would like to order a pizza</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>are you a real person</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Delete all the data in my org</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Query records in my organization</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>What is your age?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>give me an answer</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>you&apos;re the worst</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>are you very busy right now?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>I love you marry me</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>you know a lot of things</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>I shouldn&apos;t care about this</utterance>
-            </mlIntentUtterances>
+            <relatedMlIntents>
+                <relatedMlIntent>Trust.Confused</relatedMlIntent>
+            </relatedMlIntents>
         </mlIntents>
         <mlIntents>
             <developerName>Get_Instances_by_Release</developerName>
             <label>Get Instances by Release</label>
-            <mlIntentUtterances>
-                <utterance>What instances are on the 218 release?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Which instances are on Winter &apos;18?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Has my instance been upgraded to the latest release?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Give me a list of instances on the 216 release</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Give a list of instances for a specific release</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Give me instances by release number</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Get me instances by release</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>List instances that are on a specific release</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is my on a specific release?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is NA45 on Winter 18?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>What are the all the instances that have the 218 release?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>What instances have been upgraded to 220?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Show me instances by release number</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>What instances are running patch release 218.13.1</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>instances by release</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Which of my sandboxes have been updated to the last release?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Display all of the instances that are on the 216 release</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Get instances by release number</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is NA3 on Summer 19?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>I&apos;d like to get instances that have not been upgraded to the latest release</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Display instances for release 222</utterance>
-            </mlIntentUtterances>
+            <relatedMlIntents>
+                <relatedMlIntent>Trust.Get_Instances_by_Release</relatedMlIntent>
+            </relatedMlIntents>
         </mlIntents>
         <mlIntents>
             <developerName>Get_Instance_Information</developerName>
@@ -158,122 +23,17 @@
         <mlIntents>
             <developerName>Get_Instance_Status</developerName>
             <label>Get Instance Status</label>
-            <mlIntentUtterances>
-                <utterance>What is my org status?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Get instance status</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>What is my instance status?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>I want to know the status of my org&apos;s instance</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is there any issue with my instance? I&apos;m using NA1</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Check if my instance is up and running</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is my instance available right now?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Did my org instance go down?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Org status</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Check instance status</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is my instance running?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is my instance down?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Give me the status of my instance</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is there any issue with instance NA45?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Check org status</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Tell me my org status</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is my sandbox instance running right now?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>I would like to know if my instance is available</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>Is my org available?</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>My instance seems to be down</utterance>
-            </mlIntentUtterances>
-            <mlIntentUtterances>
-                <utterance>What is the availability of instance CS8?</utterance>
-            </mlIntentUtterances>
+            <relatedMlIntents>
+                <relatedMlIntent>Trust.Get_Instance_Status</relatedMlIntent>
+            </relatedMlIntents>
         </mlIntents>
-        <mlSlotClasses>
-            <developerName>Instance</developerName>
-            <extractionType>Value</extractionType>
-            <label>Instance</label>
-            <mlSlotClassValues>
-                <value>NA45</value>
-            </mlSlotClassValues>
-            <mlSlotClassValues>
-                <value>NA1</value>
-            </mlSlotClassValues>
-            <mlSlotClassValues>
-                <value>NA2</value>
-            </mlSlotClassValues>
-            <mlSlotClassValues>
-                <value>NA3</value>
-            </mlSlotClassValues>
-            <mlSlotClassValues>
-                <value>NA4</value>
-            </mlSlotClassValues>
-            <mlSlotClassValues>
-                <value>NA5</value>
-            </mlSlotClassValues>
-        </mlSlotClasses>
-        <mlSlotClasses>
-            <developerName>Release</developerName>
-            <extractionType>Value</extractionType>
-            <label>Release</label>
-            <mlSlotClassValues>
-                <synonymGroup>
-                    <languages>en_US</languages>
-                    <terms>Summer 19</terms>
-                    <terms>Summer &apos;19</terms>
-                </synonymGroup>
-                <value>220</value>
-            </mlSlotClassValues>
-            <mlSlotClassValues>
-                <synonymGroup>
-                    <languages>en_US</languages>
-                    <terms>Spring 19</terms>
-                    <terms>Spring &apos;19</terms>
-                </synonymGroup>
-                <value>218</value>
-            </mlSlotClassValues>
-            <mlSlotClassValues>
-                <synonymGroup>
-                    <languages>en_US</languages>
-                    <terms>Winter 19</terms>
-                    <terms>Winter &apos;19</terms>
-                </synonymGroup>
-                <value>216</value>
-            </mlSlotClassValues>
-        </mlSlotClasses>
+        <mlIntents>
+            <developerName>Main_Menu</developerName>
+            <label>Main Menu</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Trust.Main_Menu</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
         <name>Trust_Bot</name>
     </botMlDomain>
     <botVersions>
@@ -326,6 +86,7 @@
             </botSteps>
             <developerName>Main_Menu</developerName>
             <label>Main Menu</label>
+            <mlIntent>Main_Menu</mlIntent>
             <showInFooterMenu>true</showInFooterMenu>
         </botDialogs>
         <botDialogs>
@@ -386,7 +147,7 @@
                     </botQuickReplyOptions>
                     <botVariableOperands>
                         <disableAutoFill>false</disableAutoFill>
-                        <sourceName>Release</sourceName>
+                        <sourceName>Trust.Release</sourceName>
                         <sourceType>MlSlotClass</sourceType>
                         <targetName>Release_Indicator</targetName>
                         <targetType>ConversationVariable</targetType>
@@ -474,7 +235,7 @@
                     </botMessages>
                     <botVariableOperands>
                         <disableAutoFill>false</disableAutoFill>
-                        <sourceName>Instance</sourceName>
+                        <sourceName>Trust.Instance</sourceName>
                         <sourceType>MlSlotClass</sourceType>
                         <targetName>Customer_Instance</targetName>
                         <targetType>ConversationVariable</targetType>
