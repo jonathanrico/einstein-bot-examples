@@ -1,7 +1,27 @@
 {
     "orgName": "Rico",
-    "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
+    "edition": "Enterprise",
+    "features": [
+        "Communities",
+        "ServiceCloud",
+        "LightningServiceConsole",
+        "LiveAgent",
+        "LiveMessage",
+        "EinsteinBots"
+    ],
+    "settings": {
+        "orgPreferenceSettings": {
+            "networksEnabled": true,
+            "s1DesktopEnabled": true
+        },
+        "liveAgentSettings": {
+            "enableLiveAgent": true
+        },
+        "omniChannelSettings": {
+            "enableOmniChannel": true
+        },
+        "caseSettings": {
+            "systemUserEmail": "support@acme.com"
+        }
     }
 }

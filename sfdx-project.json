@@ -10,6 +10,6 @@
     }
   ],
   "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sfdcLoginUrl": "http://jrico-ltm.internal.salesforce.com:6109",
   "sourceApiVersion": "45.0"
 }
