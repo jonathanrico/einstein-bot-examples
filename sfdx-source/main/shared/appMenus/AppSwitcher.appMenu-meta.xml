@@ -52,8 +52,4 @@
         <name>standard__LightningService</name>
         <type>CustomApplication</type>
     </appMenuItems>
-    <appMenuItems>
-        <name>bots-examples</name>
-        <type>Network</type>
-    </appMenuItems>
 </AppMenu>
